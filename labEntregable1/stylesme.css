@@ -1,0 +1,71 @@
+/* Estilos CSS */
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #06021f;
+    color:white;
+  }
+  
+  .container {
+    width: 50%;      
+    height: 100%;     
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.2); 
+    border-radius: 10px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+    text-align: justify;
+    overflow-y: auto; 
+  }
+
+
+  .header{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; 
+    width: 300px; 
+    height: 100px; 
+  }
+  
+  .textHeader {
+    margin-left: 30px; 
+  }
+
+
+  .social-icons {
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+  }
+  
+  .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    border-radius: 50%;
+    text-decoration: none;
+    transition: transform 0.2s;
+  }
+  
+a{
+    color: white;
+}
+a:active{
+    color: red;
+}
+a:hover{
+    color:#d3d01c;
+}
+
+.redes{
+    display: flex;
+    justify-content: space-between;
+}
