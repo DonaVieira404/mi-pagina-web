@@ -69,3 +69,20 @@ a:hover{
     display: flex;
     justify-content: space-between;
 }
+
+.elementos{
+  width: 100%;
+  align-items: center;
+  background-color: #06021f;
+  color: white;
+  margin: 0 0 7px 0;
+}
+
+.cont{
+  text-align: center;
+}
+
+.enviar:hover{
+  background-color: #322a63;
+  color: #d3d01c;
+}
